@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AG-Grid:build:production"
+              "buildTarget": "AG-Grid:build:production"
             },
             "development": {
-              "browserTarget": "AG-Grid:build:development"
+              "buildTarget": "AG-Grid:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AG-Grid:build"
+            "buildTarget": "AG-Grid:build"
           }
         },
         "test": {

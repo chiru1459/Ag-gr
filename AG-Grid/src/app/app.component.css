@@ -1,0 +1,29 @@
+::ng-deep .q1-group {
+  background-color: #ebaa2a !important;
+}
+
+::ng-deep .month {
+  background-color: rgb(226, 195, 103);
+}
+
+::ng-deep .cell-color {
+  background-color: #d8e696 !important;
+}
+
+::ng-deep .total-cell-color {
+  background-color: #c96a1d !important;
+  font-weight: bold;
+}
+
+::ng-deep .total-row {
+  background-color: #c96a1d !important;
+  font-weight: bold;
+}
+
+::ng-deep .data-grid {
+  height: 500px;
+}
+
+/* ::ng-deep .total-row .ag-cell[col-id="jan"] {
+  background-color: #fdd !important;
+} */

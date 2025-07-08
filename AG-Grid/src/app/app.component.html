@@ -1,0 +1,12 @@
+<h1>AG Grid</h1>
+
+<ag-grid-angular
+  class="ag-theme-alpine data-grid"
+  [rowData]="rowData"
+  [columnDefs]="columnDefs"
+  [defaultColDef]="{ resizable: true, sortable: true, filter: true }"
+  rowSelection="multiple"
+  (cellValueChanged)="onCellValueChanged($event)"
+  [gridOptions]="gridOptions"
+>
+</ag-grid-angular>

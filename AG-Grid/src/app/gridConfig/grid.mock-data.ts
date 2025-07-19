@@ -2,6 +2,7 @@ import { GridRow } from './grid.interface';
 
 export const rowData: GridRow[] = [
   {
+    year: 2024,
     name: 'Chiranjeevi',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -11,6 +12,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2023,
     name: 'Abhi',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -20,6 +22,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2024,
     name: 'Eric',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -29,6 +32,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2024,
     name: 'Santhosh',
     manger: 'Shail',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -38,6 +42,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2024,
     name: 'Akhil',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -47,6 +52,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2024,
     name: 'Brenda',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -56,6 +62,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2023,
     name: 'Aron',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -65,6 +72,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2022,
     name: 'Chorley',
     manger: 'Erixon',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -74,6 +82,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2024,
     name: 'Venkat',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -83,6 +92,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2023,
     name: 'Randy',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -92,6 +102,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2023,
     name: 'Manasa',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -101,6 +112,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2024,
     name: 'Patel',
     manger: 'Mark',
     q1: { jan: 89, feb: 90, mar: 85 },
@@ -110,6 +122,7 @@ export const rowData: GridRow[] = [
     total: 1112,
   },
   {
+    year: 2025,
     name: 'Total',
     manger: '',
     q1: { jan: 1068, feb: 1080, mar: 1020 },

@@ -14,11 +14,12 @@ export interface QuarterData {
 }
 
 export interface GridRow {
+  year: number;
   name: string;
   manger: string;
-  q1: Partial<QuarterData>;
-  q2: Partial<QuarterData>;
-  q3: Partial<QuarterData>;
-  q4: Partial<QuarterData>;
+  q1: QuarterData;
+  q2: QuarterData;
+  q3: QuarterData;
+  q4: QuarterData;
   total: number;
 }

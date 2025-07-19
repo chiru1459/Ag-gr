@@ -2,12 +2,52 @@
   background-color: #ebaa2a !important;
 }
 
-::ng-deep .month {
+::ng-deep .q2-group {
+  background-color: blue;
+}
+
+::ng-deep .q3-group {
+  background-color: green;
+}
+
+::ng-deep .q4-group {
+  background-color: red;
+}
+
+::ng-deep .monthA {
   background-color: rgb(226, 195, 103);
 }
 
-::ng-deep .cell-color {
+::ng-deep .monthB {
+  background-color: lightblue !important;
+}
+
+::ng-deep .monthC {
+  background-color: lightgreen !important;
+}
+
+::ng-deep .monthD {
+  background-color: lightcoral !important;
+}
+
+::ng-deep .cell-red {
+  background-color: #a80b28 !important;
+}
+
+::ng-deep .cell-color-q1 {
   background-color: #d8e696 !important;
+}
+
+::ng-deep .cell-color-q2 {
+  background-color: #a9acf0 !important;
+}
+
+::ng-deep .cell-color-q3 {
+  background-color: #8db999 !important;
+}
+
+::ng-deep .cell-color-q4 {
+  background-color: #cfaac9 !important;
 }
 
 ::ng-deep .total-cell-color {
@@ -21,7 +61,24 @@
 }
 
 ::ng-deep .data-grid {
-  height: 475px;
+  height: 70vh;
+  width: 100%;
+}
+
+::ng-deep .grid-full-size {
+  width: 100%;
+  height: 100%;
+}
+
+button.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+a.nav-link.active {
+  font-weight: bold;
+  color: #0d6efd;
+  border-bottom: 2px solid #0d6efd;
 }
 
 /* ::ng-deep .total-row .ag-cell[col-id="jan"] {
